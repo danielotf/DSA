@@ -3,8 +3,11 @@ package DSA;
 public class Main {
 
   public static void main(String[] args) {
-    int[] checker = { 1, 2, 3, 4, 5 };
-    System.out.println(linearSearch.linearSearchExample(checker, 3));
+    singlyLinkedList firstList = new singlyLinkedList();
+    
+
+    System.out.println(firstList.appendNode(2));
+    
   }
   // System.out.println("What is your name? ");
   // Scanner scanner = new Scanner (System.in);
